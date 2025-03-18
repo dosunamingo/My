@@ -1,9 +1,13 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class banana : MonoBehaviour
+public class bananamove: MonoBehaviour
 {
+    public enum TYPE { BANANA }
+    public TYPE type = TYPE.BANANA;
+
     // Start is called before the first frame update
     void Start()
     {

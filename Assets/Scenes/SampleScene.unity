@@ -365,12 +365,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 920210242}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+        m_TargetAssemblyTypeName: buttondata, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetButton: {fileID: 920210239}
-  banana: {fileID: 1493479073}
+  banana: {fileID: 3961536760563054976, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,12 +694,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 985706639}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+        m_TargetAssemblyTypeName: buttondata, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -756,7 +756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetButton: {fileID: 985706636}
-  banana: {fileID: 1493479073}
+  banana: {fileID: 3961536760563054976, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
 --- !u!1 &1084505766
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,7 +896,7 @@ Transform:
   m_GameObject: {fileID: 1103903820}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 361.8, y: 150.2, z: 0}
+  m_LocalPosition: {x: 361.8, y: 150, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1143,16 +1143,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355535600}
   m_CullTransparentMesh: 1
---- !u!1 &1493479073 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3961536760563054976, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-  m_PrefabInstance: {fileID: 7641434347230654063}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1493479074 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7393842349522021211, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-  m_PrefabInstance: {fileID: 7641434347230654063}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1625261352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1238,12 +1228,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1625261357}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+        m_TargetAssemblyTypeName: buttondata, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1300,7 +1290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetButton: {fileID: 1625261354}
-  banana: {fileID: 1493479073}
+  banana: {fileID: 3961536760563054976, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
 --- !u!1 &1659308380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,7 +1326,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1, y: 1}
-  m_SizeDelta: {x: 825.334, y: 443.333}
+  m_SizeDelta: {x: 960, y: 540}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1659308382
 MonoBehaviour:
@@ -1563,7 +1553,6 @@ RectTransform:
   - {fileID: 1851047669}
   - {fileID: 966500927}
   - {fileID: 1731545468}
-  - {fileID: 1493479074}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1723,7 +1712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 213, y: -185}
+  m_AnchoredPosition: {x: 213, y: -225}
   m_SizeDelta: {x: 1200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1851047670
@@ -1835,12 +1824,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1889245047}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+        m_TargetAssemblyTypeName: buttondata, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1897,7 +1886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetButton: {fileID: 1889245044}
-  banana: {fileID: 1493479073}
+  banana: {fileID: 3961536760563054976, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
 --- !u!1 &1921322721
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,79 +2093,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -8}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &7641434347230654063
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1797628482}
-    m_Modifications:
-    - target: {fileID: 1779626434808410043, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3961536760563054976, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_Name
-      value: banana
-      objectReference: {fileID: 0}
-    - target: {fileID: 3961536760563054976, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 7393842349522021211, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -234
-      objectReference: {fileID: 0}
-    - target: {fileID: 7393842349522021211, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.3333282
-      objectReference: {fileID: 0}
-    - target: {fileID: 7393842349522021211, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7393842349522021211, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7393842349522021211, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7393842349522021211, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7393842349522021211, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7393842349522021211, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7393842349522021211, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7393842349522021211, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8897826767217190730, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_Size.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8897826767217190730, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a55578cf5616fac4ca10b07a37024615, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

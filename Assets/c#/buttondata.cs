@@ -23,7 +23,7 @@ public class buttondata
     }
 void BananaSpawn() {
         Vector3 buttonworldPos=targetButton. transform.position;
-        _ = Instantiate(banana,new Vector3(buttonworldPos.x, 540, -1
+        _ = Instantiate(banana,new Vector3(buttonworldPos.x, 297, -1
              ), transform.rotation);
             }
 
