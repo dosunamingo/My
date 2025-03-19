@@ -20,6 +20,7 @@ public class buttondata
         //banana‚Ì¢Š«
         BananaSpawn();
 
+
     }
 void BananaSpawn() {
         Vector3 buttonworldPos=targetButton. transform.position;
