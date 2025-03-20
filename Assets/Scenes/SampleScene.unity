@@ -192,7 +192,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: banana
+  m_Text: 
 --- !u!222 &38628134
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -307,7 +307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: banana
+  m_Text: 
 --- !u!222 &161672806
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2168,7 +2168,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: banana
+  m_Text: 
 --- !u!222 &1827780868
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2459,7 +2459,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: banana
+  m_Text: 
 --- !u!222 &1921322724
 CanvasRenderer:
   m_ObjectHideFlags: 0
