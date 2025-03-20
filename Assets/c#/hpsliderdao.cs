@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class hpsliderdao : MonoBehaviour
 {
    public  Slider hpslider;
-    public float firsthp;
+    public float firsthp=7;
     public gorillabehavior gorilla;
     // Start is called before the first frame update
     void Start()

@@ -16,12 +16,13 @@ public class gorillabehavior : MonoBehaviour
 
     public goriyokocollisioncheck checkCollision;
     private Rigidbody2D rb = null;
+    private Animator anim = null;
     private bool rightTleftF = false;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
+       anim= rb.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -41,8 +42,9 @@ public class gorillabehavior : MonoBehaviour
         rb.velocity = new Vector2(xVector * speed, 0);
         //hp0à»â∫Ç…Ç»Ç¡ÇΩéûÇÃèàóù
         if (hp <= 0)
-        {
-            gameObject.SetActive(false);
+        { anim.SetTrigger("gorilladown");
+            Destroy(gameObject, 1f);
+            
         }
         //evogage maxÇ»Ç¡ÇΩéûÇÃèàóù
         if (evogage == evomax)
