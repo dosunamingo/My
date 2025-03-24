@@ -2404,12 +2404,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
-  hp: 8
+  hp: 10
   firsthp: 0
   evogage: 0
   evomax: 3
   evospeedbairitu: 3
-  evomaxbairitu: 1
+  evomaxbairitu: 2
   evolimit: 4
   firstevolimit: 0
   checkCollision: {fileID: 554675870}

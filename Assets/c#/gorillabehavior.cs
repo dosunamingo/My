@@ -54,7 +54,7 @@ public class gorillabehavior : MonoBehaviour
         rb.velocity = new Vector2(xVector * speed, 0);
         //hp0ˆÈ‰º‚É‚È‚Á‚½‚Ìˆ—
         if (hp <= 0)
-        {  anim.SetBool("judogorilla",false);
+        {  anim.SetBool("judogorillawalk",false);
         anim.SetTrigger("gorilladown");
             Destroy(gameObject, 1f);
             
@@ -69,7 +69,7 @@ public class gorillabehavior : MonoBehaviour
                 evomax *= evomaxbairitu;
                 speed *= evospeedbairitu;
                 //ƒSƒŠƒ‰‚Ì‰æ‘œi‰»
-                if(evolimit/firstevolimit>=0.5)
+                if(evolimit/firstevolimit<=0.5)
                 { anim.SetBool("judogorillawalk", true); }
                 
             }
